@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/001-start/001-start.iml" filepath="$PROJECT_DIR$/001-start/001-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/002-rbac/002-rbac.iml" filepath="$PROJECT_DIR$/002-rbac/002-rbac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-rabc-ajax/003-rabc-ajax.iml" filepath="$PROJECT_DIR$/003-rabc-ajax/003-rabc-ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/004-captcha/004-captcha.iml" filepath="$PROJECT_DIR$/004-captcha/004-captcha.iml" />
+    </modules>
+  </component>
+</project>

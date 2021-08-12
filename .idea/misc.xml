@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/001-start" />
+    <file type="web" url="file://$PROJECT_DIR$/002-rbac" />
+    <file type="web" url="file://$PROJECT_DIR$/003-rabc-ajax" />
+    <file type="web" url="file://$PROJECT_DIR$/004-captcha" />
+    <file type="web" url="file://$PROJECT_DIR$/004-captcha-error" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/001-start/pom.xml" />
+        <option value="$PROJECT_DIR$/002-rbac/pom.xml" />
+        <option value="$PROJECT_DIR$/003-rabc-ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/003-rabc-ajax - 副本/pom.xml" />
+        <option value="$PROJECT_DIR$/004-captcha/pom.xml" />
+        <option value="$PROJECT_DIR$/004error-captcha/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

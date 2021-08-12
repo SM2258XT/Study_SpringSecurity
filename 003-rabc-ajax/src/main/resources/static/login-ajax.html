@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script src="lib/jquery-3.6.0.js"></script>
+</head>
+<body>
+<h2>
+    <div align="center">
+        账号：<input type="text" id="username" value="root"><br>
+        密码：<input type="text" id="password" value="zhang"><br>
+        <button id="myBtn">登录</button>
+    </div>
+    <a href="/index.html">访问主页，没登陆前应该访问失败！！！</a>
+</h2>
+
+</body>
+<script>
+    $(function () {
+        $("#myBtn").click(function () {
+            let username = $("#username").val();
+            let password = $("#password").val();
+            $.ajax({
+                url: "/login.do",
+                type: "post",
+                dataType: "json",
+                data: {
+                    "username": username,
+                    "password": password
+                },
+                success: function (resText) {
+                    alert("访问成功！" + resText.msg);
+                    // setTimeout(function () {
+                    //     window.location = "/index.html"
+                    // },1000);
+                },
+                error: function (resText) {
+                    alert("访问失败！" + resText.msg);
+                }
+            });
+        });
+    });
+</script>
+</html>
